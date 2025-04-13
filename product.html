@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaya Bakes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+<!--tailwindcss cdn link-->
+<link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+
+</head>
+<body>
+    <!--responsive navbar-->
+    <nav class=" p-6 flex items-center justify-between  bg-green-300  shadow-xl">
+        <h1 class="text-4xl font-bold font-mono ">Isaya Bakes</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+            <ul class="flex gap-5 text-gray-500 hidden md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="product.html">Product</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                </li>
+            </ul>
+    </nav>
+    <!--products-->
+    <section class="text-center">
+        <div>
+            <h1 class="font-bold p-2 mt-5 text-2xl">Our Products</h1>
+            <input type="text" placeholder="Search for a product" class="border border rounded p-2 border-black mt-5" style="width: 70%;">
+        </div>
+    </section>
+    <!--picture-->
+ 
+<section class="p-4 text-center">
+    <h1 class="font-bold mt-5 text-3xl">Layered cakes</h1>
+  <div class="grid grid-cols-2  md:grid-cols-4 mt-6 gap-5 ">
+    <div>
+        <img src="./tailwindcss/images/l1.jpg"class="inline hover:shadow-xl  transform hover:-translate-y-2" alt="">
+        <h1>Brownies</h1>
+        </div>
+    <div>
+   
+        <img src="./tailwindcss/images/l2.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Cup Cakes</h1>
+        </div>
+    <div>
+    
+        <img src="./tailwindcss/images/l3.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Donuts</h1>
+       </div>
+   <div>
+    
+        <img src="./tailwindcss/images/l4.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2"alt="">
+        <h1>Birthday Cakes</h1>
+       </div>
+   
+  </div>
+ 
+  <div class="font-bold mt-5 text-3xl p-9 bg-yellow-900">
+    <h1 class=" ">Pastries</h1>
+    <img src="./tailwindcss/images/t5.jpg"class="inline hover:shadow-xl p-4 hover:-translate-y-2 "alt="">
+  </div>
+    
+  </section>
+  <section class="flex justify-center">
+  <div>
+
+    <img src="./tailwindcss/images/t1.jpg"class="inline hover:shadow-xl  p-5"alt="">
+    <h1 class="font-extrabold text-center"> Pudding</h1>
+   </div>
+<div>
+<img src="./tailwindcss/images/t2.jpg"class="inline hover:shadow-xl  p-5"alt="">
+<h1 class="font-extrabold text-center">Cup Cakes</h1>
+</div>
+<div>
+<img src="./tailwindcss/images/t3.jpg"class="inline hover:shadow-xl  p-5"alt="">
+<h1 class="font-extrabold text-center">Macaron</h1>
+</div>
+<div>
+<img src="./tailwindcss/images/t4.jpg"class="inline hover:shadow-xl  p-5"alt="">
+<h1 class="font-extrabold text-center">Croissants</h1>
+</div>
+<div>
+<img src="./tailwindcss/images/c1 (1).jpg"class="inline hover:shadow-xl  p-5"alt="">
+<h1 class="font-extrabold text-center">Cheese Cakes</h1>
+
+  </div>
+  </section>
+<!--footer-->
+  <footer class="bg-green-200 py-8 mt-11">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-700">
+      <div>
+        <h3 class="font-bold text-pink-700 text-lg mb-2">Isaya Bakes</h3>
+        <p>Freshly baked goodness from our oven to your heart 💕</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="index.html" class="hover:text-pink-600">Home</a></li>
+          <li><a href="product.html" class="hover:text-pink-600">Gallery</a></li>
+          <li><a href="#" class="hover:text-pink-600">FAQ</a></li>
+          <li><a href="contact.html" class="hover:text-pink-600">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Follow Us</h4>
+        <div class="flex space-x-3">
+          <a href="" class="hover:text-pink-500"> Instagram</a>
+          <a href="" class="hover:text-pink-500"> Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 mt-4">&copy; 2025 Isaya Bakes</div>
+  </footer>
+  
