@@ -15,8 +15,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 </head>
 <body>
     <!--responsive navbar-->
-    <nav class=" p-6 flex items-center justify-between sticky bg-green-300
-     top-0 shadow-xl">
+    <nav class="bg-green-300 p-3 flex items-center justify-between shadow-2xl sticky top-0  z-10">
         <h1 class="text-4xl font-bold font-mono ">Isaya Bakes</h1>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -117,6 +116,32 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
                 </form>
             </div>
         </div>
-    
+     <!--footer-->
+  <footer class="bg-green-200 py-8 mt-11">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-700">
+      <div>
+        <h3 class="font-bold text-pink-700 text-lg mb-2">Isaya Bakes</h3>
+        <p>Freshly baked goodness from our oven to your heart 💕</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="index.html" class="hover:text-pink-600">Home</a></li>
+          <li><a href="product.html" class="hover:text-pink-600">Gallery</a></li>
+          <li><a href="#" class="hover:text-pink-600">FAQ</a></li>
+          <li><a href="contact.html" class="hover:text-pink-600">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Follow Us</h4>
+        <div class="flex space-x-3">
+          <a href="" class="hover:text-pink-500"> Instagram</a>
+          <a href="" class="hover:text-pink-500"> Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 mt-4">&copy; 2025 Isaya Bakes</div>
+  </footer>
+  
   </body>
 </html>
